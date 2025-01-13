@@ -13,6 +13,18 @@ html, body {
     line-height: 1.5;
 }
 
+.app-container {
+    width: 393px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 ol, ul {
     list-style: none;
 }
