@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>banksalad</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="app-container">
-        <header class="app-header">
-            <img src="./images/logo(1).svg" alt="app logo" class="app-logo1" width="32" height="32">
-            <img src="./images/bell.svg" alt="bell icon" class="bell-icon" width="28" height="28">
-            <img src="./images/list.svg" alt="list icon" class="list-icon" width="28" height="28">
+        <header class="header">
+            <img src="./images/logo(1).svg" alt="app logo" class="app-logo1">
+            <div class="header-icons">
+                <img src="./images/bell.svg" alt="bell icon" class="bell-icon">
+                <img src="./images/list.svg" alt="list icon" class="list-icon">
+            </div>
         </header>
-
-        <div class="app-modal">
+        
+        <div class="modal">
             <button class="modal-close-btn">
                 <img src="./images/close.svg" alt="close button" width="14" height="14">
             </button>
             <div class="modal-content">
                 <p class="modal-message">새해가 밝았어요</p>
                 <p class="modal-message">용돈도 준비했어요</p>
-                <img src="./images/logo(2).svg" alt="app-logo" class="app-logo2" width="244" height="50">
-                <button class="modal-action-btn">최대 19만원 받기</button>
+                <img src="./images/logo(2).svg" alt="app-logo" class="app-logo2">
+                <button class="modal-btn"><span>최대 19만원 받기</span></button>
             </div>
         </div>
-
+    
         <div class="account-box">
             <h2 class="account-title">입출금 계좌</h2>
             <p class="account-balance">90,000,000원</p>
-            <button class="account-action-btn">송금</button>
+            <button class="account-btn">
+                <span>송금</span>
+            </button>
         </div>
     </div>
 </body>
