@@ -90,7 +90,7 @@
 
 .account-box {
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     width: 348px;
@@ -132,16 +132,4 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-@media (max-width: 375px) {
-    .app-modal,
-    .account-box {
-        width: calc(100% - 32px);
-        margin: 0 16px;
-    }
-    
-    .app-modal {
-        top: 80px;
-    }
 }
